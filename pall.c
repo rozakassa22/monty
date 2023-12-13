@@ -4,9 +4,10 @@
  * @head: stack head
  * Return: nothing
 */
-void f_pall(stack_t **head)
+void f_pall(stack_t **head, unsigned int number)
 {
 	stack_t *h;
+	(void)number;
 
 	h = *head;
 	if (h == NULL)
